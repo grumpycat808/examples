@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+    <div id="editor"></div>
+    <script src="http://editor.unlayer.com/embed.js"></script>
+    <script>
+      unlayer.init({
+        id: 'editor',
+        projectId: 1071,
+        locale: 'en',
+      });
+    </script>
+  </body>
+</html>
