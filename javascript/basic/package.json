@@ -2,6 +2,7 @@
   "name": "unlayer-demo",
   "version": "1.0.0",
   "description": "",
+  "main": "src/main/index.js",
   "private": true,
   "scripts": {
     "start": "webpack-serve --config webpack.config.js",
